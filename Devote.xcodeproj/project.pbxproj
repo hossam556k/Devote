@@ -6,10 +6,6 @@
 	objectVersion = 110;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		52E8A64330969F46009E1181 /* DevoteWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 52E8A62D30969F43009E1181 /* DevoteWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		528D5B4B3094079A007F98BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,13 +21,6 @@
 			remoteGlobalIDString = 528D5B373094070B007F98BA;
 			remoteInfo = Devote;
 		};
-		52E8A64130969F46009E1181 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 528D5B303094070B007F98BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52E8A62C30969F43009E1181;
-			remoteInfo = DevoteWidgetExtension;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +29,6 @@
 			dstPath = "";
 			dstSubfolder = PlugIns;
 			files = (
-				52E8A64330969F46009E1181 /* DevoteWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 		};
@@ -50,7 +38,6 @@
 		528D5B383094070B007F98BA /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528D5B4A3094079A007F98BA /* DevoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528D5B543094079A007F98BA /* DevoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E8A62D30969F43009E1181 /* DevoteWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevoteWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -100,11 +87,6 @@
 			files = (
 			);
 		};
-		52E8A62A30969F43009E1181 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-			);
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,7 +106,6 @@
 				528D5B383094070B007F98BA /* Devote.app */,
 				528D5B4A3094079A007F98BA /* DevoteTests.xctest */,
 				528D5B543094079A007F98BA /* DevoteUITests.xctest */,
-				52E8A62D30969F43009E1181 /* DevoteWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +123,6 @@
 				52E8A64830969F46009E1181 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
-			);
-			dependencies = (
-				52E8A64230969F46009E1181 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				528D5B3A3094070B007F98BA /* Devote */,
@@ -196,21 +174,6 @@
 			productReference = 528D5B543094079A007F98BA /* DevoteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		52E8A62C30969F43009E1181 /* DevoteWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52E8A64430969F46009E1181 /* Build configuration list for PBXNativeTarget "DevoteWidgetExtension" */;
-			buildPhases = (
-				52E8A62930969F43009E1181 /* Sources */,
-				52E8A62A30969F43009E1181 /* Frameworks */,
-				52E8A62B30969F43009E1181 /* Resources */,
-			);
-			buildRules = (
-			);
-			name = DevoteWidgetExtension;
-			productName = DevoteWidgetExtension;
-			productReference = 52E8A62D30969F43009E1181 /* DevoteWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,9 +195,6 @@
 						CreatedOnToolsVersion = 27.1;
 						TestTargetID = 528D5B373094070B007F98BA;
 					};
-					52E8A62C30969F43009E1181 = {
-						CreatedOnToolsVersion = 27.1;
-					};
 				};
 			};
 			buildConfigurationList = 528D5B333094070B007F98BA /* Build configuration list for PBXProject "Devote" */;
@@ -254,7 +214,6 @@
 				528D5B373094070B007F98BA /* Devote */,
 				528D5B493094079A007F98BA /* DevoteTests */,
 				528D5B533094079A007F98BA /* DevoteUITests */,
-				52E8A62C30969F43009E1181 /* DevoteWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -271,11 +230,6 @@
 			);
 		};
 		528D5B523094079A007F98BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			files = (
-			);
-		};
-		52E8A62B30969F43009E1181 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -298,11 +252,6 @@
 			files = (
 			);
 		};
-		52E8A62930969F43009E1181 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-			);
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -315,11 +264,6 @@
 			isa = PBXTargetDependency;
 			target = 528D5B373094070B007F98BA /* Devote */;
 			targetProxy = 528D5B553094079A007F98BA /* PBXContainerItemProxy */;
-		};
-		52E8A64230969F46009E1181 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52E8A62C30969F43009E1181 /* DevoteWidgetExtension */;
-			targetProxy = 52E8A64130969F46009E1181 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -595,66 +539,6 @@
 			};
 			name = Release;
 		};
-		52E8A64530969F46009E1181 /* Debug configuration for PBXNativeTarget "DevoteWidgetExtension" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4PAP999A9U;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DevoteWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DevoteWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = h.Devote.DevoteWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		52E8A64630969F46009E1181 /* Release configuration for PBXNativeTarget "DevoteWidgetExtension" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4PAP999A9U;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DevoteWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DevoteWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = h.Devote.DevoteWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -687,14 +571,6 @@
 			buildConfigurations = (
 				528D5B633094079A007F98BA /* Debug configuration for PBXNativeTarget "DevoteUITests" */,
 				528D5B643094079A007F98BA /* Release configuration for PBXNativeTarget "DevoteUITests" */,
-			);
-			defaultConfigurationName = Release;
-		};
-		52E8A64430969F46009E1181 /* Build configuration list for PBXNativeTarget "DevoteWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52E8A64530969F46009E1181 /* Debug configuration for PBXNativeTarget "DevoteWidgetExtension" */,
-				52E8A64630969F46009E1181 /* Release configuration for PBXNativeTarget "DevoteWidgetExtension" */,
 			);
 			defaultConfigurationName = Release;
 		};
