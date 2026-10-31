@@ -1,54 +1,125 @@
-# DEVOTE — Smart Task Manager
+# DEVOTE 📋
+### A Smart Task Manager Built with SwiftUI & Core Data
 
 <p align="center">
-  <strong>A beautifully designed task management app built with SwiftUI and Core Data.</strong>
+  A beautifully crafted task management application designed to help you organize your daily life, stay focused, and boost productivity.
 </p>
 
 <p align="center">
-  Organize your day, manage your tasks, and stay productive with a personalized experience.
+  **SwiftUI** • **Core Data** • **WidgetKit** • **iOS**
 </p>
 
 ---
 
-## 📱 About The Project
+## 📱 Project Preview
 
-**DEVOTE** is a modern task management application for iOS and iPadOS, built using Apple's SwiftUI framework and Core Data.
+<p align="center">
+  <img src="https://img-c.udemycdn.com/redactor/raw/article_lecture/2021-02-18_17-19-42-08f41be9f9bb064450af6e2099f2e7d4.jpg" width="48%" />
+  <img src="https://img-c.udemycdn.com/redactor/raw/article_lecture/2021-02-18_17-24-12-9d1134fa5bb51ff6a4b8c9a8085bffff.jpg" width="48%" />
+</p>
 
-The app provides a clean, intuitive, and personalized experience that helps users create, organize, track, and manage their daily tasks.
+## ✨ Overview
 
-Beyond basic task management, DEVOTE focuses on user experience through custom UI components, dynamic appearance settings, interactive widgets, sound effects, and haptic feedback.
+**DEVOTE** is a personal task management application built for iOS and iPadOS using Apple's SwiftUI framework.
 
-## ✨ Features
+The application combines a modern user interface with Core Data persistence, allowing users to create, organize, update, and track their daily tasks.
 
-- **Task Management (CRUD):** Create, read, update, and delete tasks.
-- **Core Data Integration:** Persist tasks locally using Apple's Core Data framework.
-- **Interactive Widgets:** Display tasks through Small, Medium, and Large widget sizes.
+DEVOTE also introduces interactive home screen widgets, customizable appearance settings, and delightful interactions through sound effects and haptic feedback.
+
+## 🚀 Features
+
+- **Task Management:** Create, read, update, and delete tasks.
+- **Core Data:** Store and manage tasks with persistent local storage.
+- **Home Screen Widgets:** Display tasks using Small, Medium, and Large widgets.
 - **Dark & Light Mode:** Switch between different appearance modes.
-- **App Storage:** Persist user appearance preferences using `@AppStorage`.
-- **Custom Toggle Style:** A personalized checkbox experience.
-- **Dynamic UI:** Conditional SwiftUI views and custom visual effects.
-- **Haptic Feedback:** Improve interactions using Apple's Feedback Generator.
-- **Sound Effects:** Add audio feedback to user interactions.
-- **Custom Launch Screen:** A branded application launch experience.
+- **App Storage:** Save user appearance preferences.
+- **Custom Checkbox:** Personalized toggle and completion states.
+- **Dynamic UI:** Conditional views, blur effects, and overlays.
+- **Sound Effects:** Enhance the interaction experience.
+- **Haptic Feedback:** Provide tactile feedback using Apple's feedback generator.
+- **Custom Launch Screen:** A personalized application launch experience.
 
-## 🛠️ Built With
+## 🛠️ Technologies & Frameworks
 
-| Technology | Purpose |
+| Technology | Usage |
 |---|---|
 | Swift | Programming Language |
-| SwiftUI | Declarative User Interface |
-| Core Data | Local Data Persistence |
+| SwiftUI | User Interface |
+| Core Data | Data Persistence |
 | WidgetKit | Home Screen Widgets |
-| AppStorage | Persistent User Preferences |
+| AppStorage | User Preferences |
 | Xcode | Development Environment |
 
-## 🧠 Key Concepts
+## 🧠 What I Learned
 
-This project demonstrates practical experience with:
+Through this project, I practiced and explored:
 
-- SwiftUI App Lifecycle
-- Core Data Stack & Managed Object Context
-- `@FetchRequest` and `@Environment`
-- CRUD Operations
-- SwiftUI State Management
-- WidgetKit
+- Integrating Core Data with the SwiftUI App Lifecycle.
+- Understanding the Core Data Persistence Controller.
+- Working with `NSManagedObjectContext`.
+- Fetching data using `@FetchRequest`.
+- Implementing CRUD operations.
+- Managing SwiftUI state and environment.
+- Building WidgetKit extensions.
+- Supporting different widget sizes.
+- Managing Light and Dark Mode.
+- Creating custom SwiftUI controls.
+- Implementing haptic and audio feedback.
+
+## 📲 Widgets
+
+DEVOTE supports multiple widget configurations:
+
+| Small Widget | Medium Widget | Large Widget |
+|---|---|---|
+| Quick task overview | Task progress | Expanded task information |
+
+## ⚙️ Requirements
+
+- Xcode
+- Swift
+- iOS 14.0+
+- macOS compatible with your Xcode version
+
+## 💻 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Devote.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Devote
+```
+
+Open the project:
+
+```bash
+open Devote.xcodeproj
+```
+
+Select your preferred iOS Simulator or connected device and run the project.
+
+## 🎯 Project Goals
+
+The main objective of DEVOTE is to gain practical experience in building complete iOS applications using Apple's development ecosystem.
+
+It focuses on combining data persistence, reusable SwiftUI components, widgets, and interactive user experiences into one application.
+
+## 👨‍💻 Author
+
+**Hossam Osama**
+
+iOS Developer | SwiftUI Enthusiast
+
+- GitHub: [hossam556k](https://github.com/hossam556k)
+- Portfolio: [hossamcodes.com](https://hossamcodes.com)
+
+---
+
+<p align="center">
+  Made with ❤️ and SwiftUI
+</p>
